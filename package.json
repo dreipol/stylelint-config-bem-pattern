@@ -1,0 +1,16 @@
+{
+  "name": "@dreipol/stylelint-config-bem-pattern",
+  "version": "0.0.0",
+  "description": "dreipol stylelint config file for bem selectors",
+  "main": ".stylelintrc.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "node -e \"require('./')\""
+  },
+  "keywords": [],
+  "author": "Dreipol <dev@dreipol.ch> (http://dreipol.ch)",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint-selector-bem-pattern": "^2.0.0"
+  }
+}
