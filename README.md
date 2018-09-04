@@ -4,7 +4,7 @@ dreipol stylelint config file for bem selectors
 ## Installation
 
 ```shell
-npm i "@dreipol/stylelint-config-bem-pattern -D
+npm i @dreipol/stylelint-config-bem-pattern -D
 ```
 
 ## Usage
