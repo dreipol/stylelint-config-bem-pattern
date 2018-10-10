@@ -4,6 +4,7 @@ module.exports = {
   ],
   'rules': {
     'plugin/selector-bem-pattern': {
+      'implicitComponents': true,
       'componentName': '^[a-z]+(?:-[a-z]+)*(--|__|$)?',
       'componentSelectors': function(fileName, presetOptions) {
         const WORD = '([a-z]+(-[a-z]+)*)';
