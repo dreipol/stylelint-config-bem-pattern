@@ -1,6 +1,6 @@
 {
   "name": "@dreipol/stylelint-config-bem-pattern",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "dreipol stylelint config file for bem selectors",
   "main": ".stylelintrc.js",
   "scripts": {
