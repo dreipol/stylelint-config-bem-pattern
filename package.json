@@ -11,6 +11,7 @@
   "author": "Dreipol <dev@dreipol.ch> (http://dreipol.ch)",
   "license": "MIT",
   "peerDependencies": {
+    "stylelint": "^9.10.1",
     "stylelint-selector-bem-pattern": "^2.0.0"
   }
 }
