@@ -13,8 +13,8 @@ module.exports = {
         const ns = (presetOptions && presetOptions.namespace) ? `${ presetOptions.namespace }-` : '';
 
         const block = fileName.match(/^([a-z]+(-[a-z]+)*)+?/g);
-        const element = `(?:--${ WORD })?`;
-        const modifier = `(?:__${ WORD })?`;
+        const element = `(?:__${ WORD })?`;
+        const modifier = `(?:--${ WORD })?`;
         const attribute = '(?:\\[.+\\])?';
         const bemSelector = `(\\w)*(\\.${ns}${ block }${ element }${ modifier }${ attribute }|${ SCSS_INTERPOLATION })*`;
 
